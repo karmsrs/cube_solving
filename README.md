@@ -1,2 +1,2 @@
 # cube_solving
-rubiks cube solving
+just trying my hand at cube solving for fun

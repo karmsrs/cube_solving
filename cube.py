@@ -166,8 +166,7 @@ class CubeData:
 class Face:
     def __init__(self, face):
         self.name = face
-        self.solved_config = [
-        [f'{self.name}{j}' for j in range(i,i + 3)] for i in range(1,10,3)]
+        self.solved_config = [[f'{self.name}{j}' for j in range(i,i + 3)] for i in range(1,10,3)]
         self.face = [[f'{self.name}{j}' for j in range(i,i + 3)] for i in range(1,10,3)]
 
     def __str__(self):
